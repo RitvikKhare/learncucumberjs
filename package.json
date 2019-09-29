@@ -1,0 +1,21 @@
+{
+  "name": "learncucumberjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "execute-test": "./node_modules/.bin/cucumber-js --format json | tee ./report/output.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^5.1.0",
+    "request": "^2.88.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.0.2"
+  }
+}

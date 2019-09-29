@@ -41,10 +41,11 @@ Am trying to create a Framework with Cucumber that supports
 5. Run 
     $ npm install
     This will download all required depedencies mentioned in package.json under "node_modules" folder. 
-6. Run command to execute test
+6. Create a folder with name "report" on the same level as lib and features ( to save the report files)
+7. Run command to execute test
     $ npm run execute-test
     This will create a output.json folder in "report" folder
-7. Run command
+8. Run command
     $ node index.js
     This will create cucumber-report.html in report folder and open browser with HTML report.
 

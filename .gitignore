@@ -6,5 +6,5 @@
 node_modules
 
 #Files
-report/*.json
-report/*.html
+*.json
+*.html

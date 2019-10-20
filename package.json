@@ -1,19 +1,37 @@
 {
   "name": "learncucumberjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test Cumcumberjs with protractor",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "execute-test": "./node_modules/.bin/cucumber-js --format json | tee ./report/output.json"
+    "execute-test": "./node_modules/.bin/cucumber-js --format json | tee ./report/output.json",
+    "execute-ui": "protractor prot-config.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RitvikKhare/learncucumberjs.git"
+  },
+  "keywords": [
+    "cucumberjs",
+    "protractor"
+  ],
+  "author": "Ritvik Khare",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RitvikKhare/learncucumberjs/issues"
+  },
+  "homepage": "https://github.com/RitvikKhare/learncucumberjs#readme",
   "dependencies": {
     "cucumber": "^5.1.0",
-    "request": "^2.88.0",
-    "node-fetch": "^2.6.0"
+    "cucumber-pretty": "^1.5.0",
+    "node-fetch": "^2.6.0",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^6.1.3",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "cucumber-html-reporter": "^5.0.2"

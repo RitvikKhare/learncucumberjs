@@ -4,15 +4,14 @@ const LearnProtractor = require('../../lib/launchProtractor');
 
 let learnProtractor;
 
-Given('I am trying to get User Details for Ritvik Khare', async function () {
+Given('Launch Chrome Browser', async function () {
     learnProtractor= new LearnProtractor();
 });
 
-
-When('I call the service', async function () {
+When('Google Website is opened browser', async function () {
     learnProtractor.launchBrowser();
 });
 
-Then('Check the id 28248633 is matching with Response', async function () {
-    
+Then('Title is Google', async function () {
+    learnProtractor.checkTtile();
 });

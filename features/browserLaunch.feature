@@ -1,9 +1,9 @@
-Feature: Test Service Trial
+Feature: Test Protractor BrowserLaunch
 
-   Feature Description: Trying to test a Service
-
-   Scenario: Get User Details from Github.com
-   Given I am trying to get User Details for Ritvik Khare
-   When I call the service
-   Then Check the id 28248633 is matching with Response
+   Feature Description: Trying to launch Browser
+   @ProtractorTest
+   Scenario: Launch Chrome Browser with Protractor
+   Given Launch Chrome Browser
+   When Google Website is opened browser
+   Then Title is Google
    

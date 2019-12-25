@@ -11,15 +11,14 @@ exports.config = {
   
     // Spec patterns are relative to this directory.
     specs: [
-      'learncucumberjs/features/browserLaunch.feature'
+      'features/browserLaunch.feature'
     ],
   
     baseURL: 'http://www.google.co.in/',
   
     cucumberOpts: {
-      require: 'learncucumberjs/features/step_definition/browserLaunch-steps.js',
+      require: 'features/step_definition/browserLaunch-steps.js',
       tags: false,
-      format: ['progress', 'pretty:output.txt'],
       profile: false,
       'no-color': true
     }

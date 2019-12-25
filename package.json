@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RitvikKhare/learncucumberjs.git"
+    "url": "https://github.com/RitvikKhare/learncucumberjs.git"
   },
   "keywords": [
     "cucumberjs",

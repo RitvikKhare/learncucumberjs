@@ -5,7 +5,7 @@ function fiboPrint(num:number){
 
     series[0]=0;
     series[1]=1;
-
+    // saving series into series without recursive
     for(cnt=2;cnt<num;cnt++)
     {
         series[cnt]=series[cnt-1]+series[cnt-2];

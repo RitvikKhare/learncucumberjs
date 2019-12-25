@@ -1,6 +1,6 @@
 const assert = require('assert');
 const { Before, Given, When , Then} = require ('cucumber');
-const ServiceCall = require('../../lib/serviceCall');
+const ServiceCall = require('../../lib/codepracticejs/serviceCall');
 
 let serviceCall;
 

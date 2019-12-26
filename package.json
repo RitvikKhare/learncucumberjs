@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "execute-test": "./node_modules/.bin/cucumber-js --format json | tee ./report/output.json",
-    "execute-ui": "protractor prot-config.js"
+    "execute-ui": "protractor prot-config.js",
+    "execute-jasmine": "protractor jasmineConf.js"
   },
   "repository": {
     "type": "git",

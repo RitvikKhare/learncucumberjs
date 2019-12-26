@@ -57,3 +57,13 @@ Don't includes
 
 ## Learning Links 
 https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
+
+## Notes
+1. Internet Explorer downloads IE server.exe - "webdriver-manager update --ie" , put browsercapabilities as "internet explorer".
+2. If we don't put browser in protractor config. by default it will work with Chrome.
+3. browser.waitForAngularEnabled(false) for non angular apps.
+4. for Jasmine - any function should be inside describe block to be used.
+
+## Issues 
+1. Safari is not launching with Protractor
+2. With Cucumber files, promises are not getting resolved. browser is running independent of assertions.

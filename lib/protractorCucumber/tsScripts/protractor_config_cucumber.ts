@@ -1,10 +1,9 @@
 import {Config} from 'protractor';
 
-export let config: Config ={
+export let config: Config =
+{
     //seleniumAddress: 'http://127.0.0.1:4444/wd/hub',
     directConnect:true,
-    getPageTimeout: 60000,
-    allScriptsTimeout: 500000,
     framework: 'custom',
     // path relative to the current config file
     frameworkPath: require.resolve('protractor-cucumber-framework'),
@@ -14,15 +13,12 @@ export let config: Config ={
   
     // Spec patterns are relative to this directory.
     specs: [
-      'features/browserLaunch.feature'
+      '../features/firstProtractor.feature'
     ],
-  
-    baseURL: 'http://www.google.co.in/',
-  
+    
     cucumberOpts: {
-      require: 'features/step_definition/browserLaunch-steps.js',
-      tags: false,
-      profile: false,
-      'no-color': true
-    }
+      require: [
+        './features/step_definitions/*.js',
+      ]
+    }    
   };

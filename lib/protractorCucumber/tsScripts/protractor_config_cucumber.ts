@@ -1,5 +1,8 @@
-exports.config = {
-    seleniumAddress: 'http://127.0.0.1:4444/wd/hub',
+import {Config} from 'protractor';
+
+export let config: Config ={
+    //seleniumAddress: 'http://127.0.0.1:4444/wd/hub',
+    directConnect:true,
     getPageTimeout: 60000,
     allScriptsTimeout: 500000,
     framework: 'custom',

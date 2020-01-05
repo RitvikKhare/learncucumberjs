@@ -67,3 +67,4 @@ https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
 ## Issues 
 1. Safari is not launching with Protractor
 2. With Cucumber files, promises are not getting resolved. browser is running independent of assertions.
+3. protractorCucumber files is not re solving the step definition files for features

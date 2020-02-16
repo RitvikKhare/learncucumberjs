@@ -7,22 +7,12 @@ your team.
 
 Cucumber.js is the JavaScript implementation of Cucumber and runs on the [maintained Node.js versions](https://github.com/nodejs/Release) and *modern* web browsers.
 
-## What am Trying
+## What on ?
 Am trying to create a Framework with Cucumber that supports
  - Cucumber test execution for 
-     + UI automation with Protractor
-     + Service API automation with Available libraries
-
-## TO DOs
-1. Include Await/Async code to handle the service call in serviceCall.js to wait for service call to complete and then perform When action
-2. Include Protractor Library for UI automation
-3. Include code for renaming the .json and . html report to current data and execution time to get multiple reports in same folder.
-4. Include TypeScript code matching to the serviceCall.js and calculator.js.
-
-## Current State
-- Able to execute tests with cucumberjs.
-- Get cucumber report json.
-- Covert the report json to HTML cucumber report.
+     + UI automation with Protractor, 
+     + using TypeScript for Desktop and Mobile View.
+     + Service API automation.
 
 ## Requirements
 - Visual Studio code 
@@ -31,6 +21,9 @@ Am trying to create a Framework with Cucumber that supports
 - node-fetch
 
 ## Install & CLIs
+There are more files and folders then required. As it has a learning path as well.
+JavaScript > Protractor > Jasmine > CucumberJS > TypeScript > Desktop Automation > Mobile Automation > Tool Integration > Coverages.
+
 1. Create a folder on drive. 
 2. Open the folder in the Visual Studio Code
 3. Run Command - 
@@ -54,17 +47,3 @@ Don't includes
 - report/*.html 
 - report/*.json
 - node_modules
-
-## Learning Links 
-https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
-
-## Notes
-1. Internet Explorer downloads IE server.exe - "webdriver-manager update --ie" , put browsercapabilities as "internet explorer".
-2. If we don't put browser in protractor config. by default it will work with Chrome.
-3. browser.waitForAngularEnabled(false) for non angular apps.
-4. for Jasmine - any function should be inside describe block to be used.
-
-## Issues 
-1. Safari is not launching with Protractor
-2. With Cucumber files, promises are not getting resolved. browser is running independent of assertions.
-3. protractorCucumber files is not re solving the step definition files for features

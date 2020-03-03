@@ -4,7 +4,7 @@
 
 # Ignore folders
 node_modules
+report
 
 #Files
-*.json
 *.html

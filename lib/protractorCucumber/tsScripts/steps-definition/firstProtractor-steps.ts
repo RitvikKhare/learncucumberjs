@@ -1,8 +1,11 @@
 import {Given,When,Then} from 'cucumber'
+import {browser,element,by} from 'protractor'
 
   Given('Super Calculator Website is opened browser', function () {
-    // opening browser
-    return 'pending';
+    browser.get('http://juliemr.github.io/protractor-demo/').then(function()
+				{
+			        console.log("[1] Step to execute after URL Launch | Once Promise is resolved. ");
+				});
   });
 
   When('Title is Super Calculator', function () {

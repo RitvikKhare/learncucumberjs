@@ -31,10 +31,10 @@
   },
   "homepage": "https://github.com/RitvikKhare/learncucumberjs#readme",
   "dependencies": {
-    "protractor": "^5.4.2",
-    "typescript": "^3.7.4",
+    "protractor": "^5.4.1",
+    "typescript": "^3.6.4",
     "ts-node": "8.5.4",
-    "@types/node": "^13.1.4",
+    "@types/node": "^8.10.59",
     "jasmine": "^3.5.0",
     "@types/jasmine": "^3.5.0",
     "@types/jasminewd2": "^2.0.8",
@@ -46,6 +46,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "cucumber-html-reporter": "^5.0.2"
+    "cucumber-html-reporter": "^5.0.2",
+    "@types/node": "^8.10.59"
   }
 }

@@ -18,7 +18,7 @@ export let config: Config =
     
     cucumberOpts: {
       require: [
-        '../compiledJS/steps_definition/*.js',
+        './stepsDefinition/*.js'
       ]
     }    
   };

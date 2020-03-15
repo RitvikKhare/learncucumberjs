@@ -57,6 +57,7 @@ JavaScript > Protractor > Jasmine > CucumberJS > TypeScript > Desktop Automation
       - npm run build-cucumber | build cucumber ts files into js files.
       - NOT REQUIRED after stepsDefinition || copy compiledJS/steps-definition/firstProtractor-steps.js to features/steps-definition/ folder. ( this is temp will be resolved with cucumber-config.ts with steps aggregate ).
       - npm run execute-cucumber
+      - npm run gen-cucumber-html | to generate and open HTML report.
 
  + (D)
     Run command to execute test

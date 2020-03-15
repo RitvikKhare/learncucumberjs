@@ -1,4 +1,5 @@
 import {Config} from 'protractor';
+import { JsonFormatter } from 'cucumber';
 
 export let config: Config =
 {
@@ -17,6 +18,8 @@ export let config: Config =
     ],
     
     cucumberOpts: {
+      format:'json:./lib/protractorCucumber/tsScripts/reports/jsons/cucumberReport.json',
+
       require: [
         './stepsDefinition/*.js'
       ]

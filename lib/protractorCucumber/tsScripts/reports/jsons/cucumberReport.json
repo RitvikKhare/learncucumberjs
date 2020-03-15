@@ -1,0 +1,104 @@
+[
+  {
+    "description": "   Feature Description: Trying to launch Browser",
+    "keyword": "Feature",
+    "name": "Test Protractor BrowserLaunch",
+    "line": 1,
+    "id": "test-protractor-browserlaunch",
+    "tags": [],
+    "uri": "lib/protractorCucumber/tsScripts/features/firstProtractor.feature",
+    "elements": [
+      {
+        "id": "test-protractor-browserlaunch;perform-sum-of-numbers-with-calculator",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Perform Sum of Numbers with Calculator",
+        "tags": [
+          {
+            "name": "@ProtractorTest",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Super Calculator Website is opened browser",
+            "match": {
+              "location": "lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 813000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Enter number 6 in First Box",
+            "match": {
+              "location": "lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Select plus operator from dropdown",
+            "match": {
+              "location": "lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Enter number 20 in Second Box",
+            "match": {
+              "location": "lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1071000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Click Go button",
+            "match": {
+              "location": "lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

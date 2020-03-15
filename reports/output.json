@@ -1,0 +1,156 @@
+[
+  {
+    "description": "   Feature Description: Trying to test a Service",
+    "keyword": "Feature",
+    "name": "Test Service Trial",
+    "line": 1,
+    "id": "test-service-trial",
+    "tags": [],
+    "uri": "features/browserLaunch.feature",
+    "elements": [
+      {
+        "id": "test-service-trial;get-user-details-from-github.com",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Get User Details from Github.com",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am trying to get User Details for Ritvik Khare",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I call the service",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Check the id 28248633 is matching with Response",
+            "result": {
+              "status": "ambiguous"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "  Addition is great as a verification exercise to get the Cucumber-js infrastructure up and running",
+    "keyword": "Feature",
+    "name": "Addition",
+    "line": 1,
+    "id": "addition",
+    "tags": [],
+    "uri": "features/first.feature",
+    "elements": [
+      {
+        "id": "addition;add-two-number",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Add two number",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the numbers 1 and 3",
+            "match": {
+              "location": "features/steps-definition/first-steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "they are added together",
+            "match": {
+              "location": "features/steps-definition/first-steps.js:14"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "should the result be 4",
+            "match": {
+              "location": "features/steps-definition/first-steps.js:19"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "   Feature Description: Trying to test a Service",
+    "keyword": "Feature",
+    "name": "Test Service Trial",
+    "line": 1,
+    "id": "test-service-trial",
+    "tags": [],
+    "uri": "features/serviceTest.feature",
+    "elements": [
+      {
+        "id": "test-service-trial;get-user-details-from-github.com",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Get User Details from Github.com",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am trying to get User Details for Ritvik Khare",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I call the service",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Check the id 28248633 is matching with Response",
+            "result": {
+              "status": "ambiguous"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

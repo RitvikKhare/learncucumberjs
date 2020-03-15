@@ -1,3 +1,4 @@
+Thanks to [Abhishek Kale](https://github.com/abhis00786) for providing the solution 
 1. Fix for ProtractorPlugin issue, for compilation from main folder level.
 
 protractor/built/index.d.ts

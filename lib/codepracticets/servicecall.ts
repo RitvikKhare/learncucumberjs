@@ -1,7 +1,6 @@
 import fetch from 'node-fetch'
 
 const body = {a: 1};
-
 fetch('https://httpbin.org/post', {
 	method: 'post',
 	body: JSON.stringify(body),

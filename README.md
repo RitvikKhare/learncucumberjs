@@ -48,7 +48,12 @@ JavaScript > Protractor > Jasmine > CucumberJS > TypeScript > Desktop Automation
 6. Create a folder with name "report" on the same level as lib and features ( to save the report files)
 7. Different Script/CLI for running different folder code
  + (A)
- + (B)
+ + (B) 
+    - Go inside the folder ./lib/codepracticets/
+    - run "tsc -p tsconfig.json" in one terminal
+    - go inside ./lib/codepracticets/js folder
+    - run "node servicecall.ts" for running the fetch service call
+    - reference links in docs/learnings.md
  + (C) Running invidual folder 
     + (I) 
     + (II) Running code basic

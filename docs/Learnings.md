@@ -11,6 +11,8 @@ https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
 4. for Jasmine - any function should be inside describe block to be used.
 
 ## Service Call 
+* Remaining part is handling SSL certificates and headers customisation in calls.
+
 1. node-fetch library added - @types/node ,@types/node-fetch, @types/form
 2. Userful links
 * https://www.npmjs.com/package/@types/node-fetch

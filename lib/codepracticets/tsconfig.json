@@ -62,6 +62,7 @@
     "watch" : true
   },
   "files":[
-    "fibonnacits.ts"
+    "fibonnacits.ts",
+    "servicecall.ts"
   ]
 }

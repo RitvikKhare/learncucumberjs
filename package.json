@@ -12,7 +12,7 @@
     "execute-ui": "protractor prot-config.js",
     "execute-jasmine": "protractor ./lib/protractorJasmine/jsScriptSpecs/jasmineConf.js",
     "execute-cucumber": "protractor ./lib/protractorCucumber/tsScripts/compiledJS/protractor_config_cucumber.js",
-    "gen-cucumber-html":"node ./lib/protractorCucumber/tsScripts/reports/index.js",
+    "gen-cucumber-html": "node ./lib/protractorCucumber/tsScripts/reports/index.js",
     "build-cucumber": "tsc --build ./lib/protractorCucumber/tsScripts/tsconfig.json",
     "protractor": "./node_modules/protractor/built/cli.js",
     "webdriver-update": "./node_modules/.bin/webdriver-manager update"
@@ -43,6 +43,8 @@
     "cucumber": "^5.1.0",
     "cucumber-pretty": "^1.5.0",
     "@types/cucumber": "^6.0.0",
+    "@types/node-fetch": "2.5.5",
+    "@types/form-data": "2.5.0",
     "node-fetch": "^2.6.0",
     "request": "^2.88.0",
     "minimist": ">=1.2.2"

@@ -63,9 +63,7 @@ JavaScript > Protractor > Jasmine > CucumberJS > TypeScript > Desktop Automation
     Run command to execute test
     $ npm run execute-test
     This will create a output.json folder in "report" folder
-8. Run command
-    $ node index.js
-    This will create cucumber-report.html in report folder and open browser with HTML report.
+
 
 ##.gitignore
 Don't includes 

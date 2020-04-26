@@ -31,7 +31,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 813000000
+              "duration": 2829000000
             }
           },
           {
@@ -40,11 +40,11 @@
             "line": 9,
             "name": "Enter number 6 in First Box",
             "match": {
-              "location": "lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:16"
+              "location": "lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 1133000000
+              "duration": 80000000
             }
           },
           {
@@ -53,11 +53,12 @@
             "line": 10,
             "name": "Select plus operator from dropdown",
             "match": {
-              "location": "lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:24"
+              "location": "lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:31"
             },
             "result": {
-              "status": "passed",
-              "duration": 75000000
+              "status": "failed",
+              "duration": 18000000,
+              "error_message": "JavascriptError: javascript error: angular is not defined\n  (Session info: chrome=81.0.4044.122)\n  (Driver info: chromedriver=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}),platform=Mac OS X 10.13.6 x86_64)\n    at Object.checkLegacyResponse (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/error.js:546:15)\n    at parseHttpResponse (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/http.js:509:13)\n    at doSend.then.response (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebDriver.executeScript()\n    at Driver.schedule (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/webdriver.js:807:17)\n    at Driver.executeScript (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/webdriver.js:878:16)\n    at /Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/by.js:191:35\n    at call (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/webdriver.js:1068:28)\n    at /Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/webdriver.js:907:19\n    at ManagedPromise.invokeCallback_ (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/promise.js:2974:25)\n    at /Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/promise.js:668:7\nFrom: Task: WebDriver.call(function)\n    at Driver.call (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/webdriver.js:901:23)\n    at Driver.findElementsInternal_ (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/webdriver.js:1068:17)\n    at Driver.findElements (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/webdriver.js:1043:19)\n    at Object.findElementsOverride (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/protractor/built/locators.js:177:31)\n    at ptor.waitForAngular.then (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/protractor/built/element.js:156:40)\n    at ManagedPromise.invokeCallback_ (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/selenium-webdriver/lib/promise.js:668:7Error\n    at ElementArrayFinder.applyAction_ (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as click] (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as click] (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/node_modules/protractor/built/element.js:831:22)\n    at World.<anonymous> (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:32:80)\n    at Generator.next (<anonymous>)\n    at /Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/lib/protractorCucumber/tsScripts/compiledJS/stepsDefinition/firstProtractor.steps.js:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/lib/protractorCucumber/tsScripts/compiledJS/stepsDefinition/firstProtractor.steps.js:4:12)\n    at World.<anonymous> (/Users/ritvikkhare/Documents/workspace/GITREPOS/learncucumber/learncucumberjs/lib/protractorCucumber/tsScripts/compiledJS/stepsDefinition/firstProtractor.steps.js:43:12)"
             }
           },
           {
@@ -66,11 +67,10 @@
             "line": 11,
             "name": "Enter number 20 in Second Box",
             "match": {
-              "location": "lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:30"
+              "location": "lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:37"
             },
             "result": {
-              "status": "passed",
-              "duration": 1071000000
+              "status": "skipped"
             }
           },
           {
@@ -79,11 +79,10 @@
             "line": 12,
             "name": "Click Go button",
             "match": {
-              "location": "lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:37"
+              "location": "lib/protractorCucumber/tsScripts/stepsDefinition/firstProtractor.steps.ts:44"
             },
             "result": {
-              "status": "passed",
-              "duration": 72000000
+              "status": "skipped"
             }
           },
           {

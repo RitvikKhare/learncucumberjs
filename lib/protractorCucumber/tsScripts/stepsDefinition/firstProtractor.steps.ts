@@ -5,7 +5,9 @@ import {browser,element,by} from 'protractor'
     await browser.get('http://juliemr.github.io/protractor-demo/').then(async function()
 				{
 			      await console.log("[1] Step to execute after URL Launch | Once Promise is resolved. ");
-				});
+        });
+    await browser.waitForAngularEnabled(false);
+    await browser.get('https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_select');
   });
 
   When('Title is Super Calculator', async function () {
@@ -14,10 +16,15 @@ import {browser,element,by} from 'protractor'
   });
 
   When('Enter number 6 in First Box', async function () {
+   
+    await browser.switchTo().frame(element(by.xpath('//iframe[@id="iframeResult"]')).getWebElement());
+    await console.log('Text '+ await element(by.xpath('//h2')).getText());
+
+    /*
     await element(by.model('first')).sendKeys("6").then(async function(){
       browser.sleep(1000);
      await console.log("[2] Entered first number.");
-   });
+   });*/
 
   });
 

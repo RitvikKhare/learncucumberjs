@@ -3,13 +3,12 @@ const fs = require('fs');
 export class GetJson {
 
 // Read the file, and pass it to your callback
- async readJsonFile (filePath:string){
-     await fs.readFile(filePath, async (err, data) => {
-      if (err) throw err;
-      let jsonContent = await JSON.parse(data);
-      await console.log("filePath " + filePath + " | content");
-      await console.log(jsonContent);
-  });
+ async readJsonFile (filePath:string):Promise<any>{
+      await console.log('filepath ' + filePath);
+      let fileContent:string = await fs.readFileSync(filePath);
+      let jsonContent = await JSON.parse(fileContent);
+      await console.log('file content = ' + jsonContent);
+      return fileContent;
 }
 
 async getCoverageValues(jsonConent,keyName)
@@ -29,12 +28,10 @@ async readFilesinFolder(folderPath:string)
     });
 }
 
+async readJsonFields(fileContent:string)
+{
+    let jsonContent = JSON.parse(fileContent);
+    await console.log('JSON Content ob1 =' + jsonContent['ob1']);
 }
 
-let obj = new GetJson();
-obj.readJsonFile('./utility/adata.json');
-obj.readJsonFile('./bdata.json');
-obj.readJsonFile('../cdata.json');
-obj.readJsonFile('../testData/dData.json');
-
-obj.readFilesinFolder('../testData/');
+}
